@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-pagination {
+  bottom: 300px !important; /* Adjust this value to move the pagination higher */
+}
+
+.swiper-pagination-bullet {
+  background: gray !important; /* Make pagination bullets gray */
+}
+
+@media (max-width: 768px) {
+  .swiper-pagination {
+    padding-bottom: 360px !important; /* Higher position for smaller screens */
+  }
+}
