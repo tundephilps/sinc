@@ -35,17 +35,6 @@ const Homepage = () => {
       <Blog />
       <Featured />
       <Footer />
-      {/* 
-    
-    
-     
-    
-     
-     
-    
-   
-   
-   */}
     </div>
   );
 };
