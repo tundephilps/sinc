@@ -15,7 +15,7 @@ const Blog = () => {
         <h1 className="text-center lg:text-[56px] text-[24px] text-[#212121] pb-12">
           Blogs & Resources
         </h1>
-        <div class="flex flex-wrap -m-4">
+        <div class="flex flex-wrap -m-4 items-center justify-center">
           <div class="p-4 md:w-1/3">
             <div class="h-full  border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
               <img

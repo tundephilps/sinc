@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .swiper-pagination {
-  bottom: 300px !important; /* Adjust this value to move the pagination higher */
+  bottom: 10px !important; /* Adjust this value to move the pagination higher */
 }
 
 .swiper-pagination-bullet {

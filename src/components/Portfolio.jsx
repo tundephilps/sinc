@@ -96,7 +96,7 @@ const Portfolio = () => {
             Our 2024 Service Incubator Portfolio Companies
           </h1>
         </div>
-        <div className="flex flex-wrap lg:gap-8 gap-3">
+        <div className="flex flex-wrap lg:gap-8 gap-3 items-center justify-center">
           {logos.map((logo, index) => (
             <div
               key={index}

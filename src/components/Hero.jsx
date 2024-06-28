@@ -11,14 +11,17 @@ import "swiper/css/autoplay";
 
 const Hero = () => {
   return (
-    <section className="relative  mx-auto lg:h-[64.5vh] h-[300px]">
+    <section className="relative  mx-auto lg:h-[100%] h-[300px]">
       <div className="absolute top-0 left-0 w-full h-full bg-white opacity-40 "></div>
 
       <Swiper
         pagination={{ clickable: true }}
-        modules={[Pagination]}
-        className="h-screen"
-        autoplay={{ delay: 3000, disableOnInteraction: false }} // Enable autoplay
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="h-[100%]"
       >
         <SwiperSlide>
           <Slider1 />

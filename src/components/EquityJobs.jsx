@@ -22,7 +22,7 @@ const EquityJobs = () => {
         </div>
         <div class="flex flex-wrap gap-6">
           <div class="p-4 lg:w-[278px] sm:w-1/2 w-full bg-white">
-            <img src={Logo21} alt="" />
+            <img src={Logo21} className="h-8" alt="" />
             <p className="text-sm pt-4">
               This company is a SAAS Startup that builds AI copy generator...
             </p>
